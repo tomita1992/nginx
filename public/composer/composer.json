@@ -1,0 +1,10 @@
+{
+    "name": "administrator/composer",
+    "authors": [
+        {
+            "name": "cui02093920",
+            "email": "cui02093920@gmail.com"
+        }
+    ],
+    "require": {}
+}

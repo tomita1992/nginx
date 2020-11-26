@@ -31,8 +31,8 @@ class Demo extends BaseController
   }
 
   /**
-   *  参数的获取方法
-   *  1.通过访问本类的request属性来直接获取
+   *  第一种获取url参数的方法
+   *  通过访问本类的request属性来直接获取
    *  这个request是通过BaseController的构造方式中注入的app对象
    *  去访问容器类的make方法创建 再通过反转赋给继承了BaseController的子类的
    *  request属性 这样就可以用this直接取访问各种方法
